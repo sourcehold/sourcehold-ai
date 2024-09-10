@@ -15,6 +15,7 @@ The relevant sections to know about are the following:
 |2008|steps|100x100 matrix of type uint32, containing the steps|
 |2010|step count|Amount of steps in total|
 |2011|pauses|Ten int32 indicating which step has a pause|
+|2012|units|Unit (and brazier and flag) locations. Structure is int[24][10] => int[unitType][slotID], so every unit type has 10 slots available|
 |2014|pause|uint32 how long the pause is|
 
 
