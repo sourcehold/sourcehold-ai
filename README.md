@@ -1,5 +1,5 @@
 # sourcehold-ai
-AIV focused sourcehold repo for Stronghold Crusader as created by Firefly Studios
+AI focused sourcehold repo for Stronghold Crusader as created by Firefly Studios
 
 Check the wiki!
 
