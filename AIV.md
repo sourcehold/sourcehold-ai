@@ -29,10 +29,6 @@ The directory structure is sort of like an index for the rest of the file.
 ### Sections
 Each section in the AIV file contains specific data related to the AI village. The sections are identified by their indices and can be either compressed or uncompressed. Below are some of the known sections:
 
-### Section 2004
-- **Description**: Contains data for a specific part of the AI village.
-- **Data Type**: Compressed
-
 ### Section 2007: Constructions
 - **Description**: Contains construction data for the AI village.
 - **Data Type**: Compressed
@@ -43,7 +39,7 @@ Each section in the AIV file contains specific data related to the AI village. T
 - **Data Type**: Compressed
 - **Data Format**: 100x100 matrix of `uint32` values.
 
-### Section 2009:
+### Section 2009: Step count
 - **Description**: Contains the step count for the AI village.
 - **Data Type**: Uncompressed
 - **Data Format**: Single `uint32` value.
